@@ -27,11 +27,11 @@ body{
 @layer components{
     
         .bg-glass {
-            @apply bg-clip-padding backdrop-filter backdrop-blur-md border-gray-800 text-white transition-all duration-300 ease-in-out;
+            @apply bg-clip-padding backdrop-filter backdrop-blur-md border border-gray-800 text-white transition-all duration-300 ease-in-out;
         }
     
         .bg-glass:hover {
-            background-image: linear-gradient(#94bce977, #00000063);
+            background-image: linear-gradient(#495c7270, #0c0b0b63);
             transition-duration: 2000ms;
         }
     
